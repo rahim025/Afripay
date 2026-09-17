@@ -1,7 +1,7 @@
 # AfriPay – Backend Inscription, Sécurité & Notifications
 
 Backend Node.js/Express implémentant :
-
+ 
 - **Inscription** : prénom, nom, téléphone, pays, devise, Gmail, création de PIN, vérification OTP du téléphone, vérification de l'adresse Gmail.
 - **Sécurité** : PIN hashé (bcrypt), jamais de mot de passe Gmail stocké, email de récupération activé seulement après vérification.
 - **Notifications** : in-app (`💰`, `💸`, `🔐`...) et par email (connexion inhabituelle, changement d'infos, changement de PIN, confirmation de transaction, relevé, récupération, alertes de sécurité), avec préférences utilisateur (`Profil → Paramètres → Notifications`).
