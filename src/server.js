@@ -8,6 +8,8 @@ const notificationRoutes = require("./routes/notificationRoutes");
 const app = express();
 app.use(express.json());
 
+app.get("/", (req, res) => res.json({ message: "AfriPay API", status: "running" }));
+
 app.get("/health", (req, res) => res.json({ status: "ok", service: "afripay-backend" }));
 
 app.use("/api/auth", authRoutes);
